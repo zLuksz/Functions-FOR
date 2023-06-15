@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Asar&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Asar', serif;
+    font-size: 20px;
+}
+
+body {
+    color: #e8f5ff;
+    background-color: #2d2c55;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabuada h2 {
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5rem;
+    background-color: #e9791a;
+}
+
+.tabuada input {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.tabuada button {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #3591d8;
+    cursor: pointer;
+    color: #e8f5ff;
+}
+
+.tabuada button:hover {
+    background-color: #406e9b;
+    transition: 0.6s;
+    filter: drop-shadow(2px 3px 2px);
+}
+
+#result-tabuada {
+    background-color: #406e9b;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.numerosPar h2 {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5rem;
+    background-color: #e9791a;
+}
+
+.numerosPar input {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.numerosPar button {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #3591d8;
+    cursor: pointer;
+    color: #e8f5ff;
+}
+
+.numerosPar button:hover {
+    background-color: #406e9b;
+    transition: 0.6s;
+    filter: drop-shadow(2px 3px 2px);
+}
+
+#result-numerosPar {
+    background-color: #406e9b;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.somaNumeros h2 {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5rem;
+    background-color: #e9791a;
+}
+
+.somaNumeros input {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.somaNumeros button {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #3591d8;
+    cursor: pointer;
+    color: #e8f5ff;
+}
+
+.somaNumeros button:hover {
+    background-color: #406e9b;
+    transition: 0.6s;
+    filter: drop-shadow(2px 3px 2px);
+}
+
+#numeros {
+    background-color: #406e9b;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#resultado {
+    background-color: #406e9b;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+}
